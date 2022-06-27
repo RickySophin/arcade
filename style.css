@@ -1,0 +1,53 @@
+.game-name {
+    background-color: rgb(255, 172, 127);
+    font-size: 100px;
+    color:aquamarine;
+    text-align: center;
+}
+
+.result {
+    background-color: bisque;
+    font-size: 80px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.board-container {
+    display:grid;
+    background-color: rgb(60, 215, 36);
+    grid-template-columns:auto auto auto;
+}
+
+
+.box {
+    border:2px solid rgb(180, 20, 208);
+    min-width:150px;
+    min-height:150px;
+    background-color: aquamarine;
+    font-size:150px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    aspect-ratio: 1;
+}
+
+footer {
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+main {
+    background-color: rgb(71, 35, 213);
+}
+
+button {
+    background-color:darksalmon;
+}
+
+div {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
